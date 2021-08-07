@@ -16,6 +16,7 @@
       integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
       crossorigin="anonymous"
     />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/styles.css" />
     <title>Vanilla Weather App</title>
   </head>
@@ -24,10 +25,10 @@
      <div class="weather-app-wrapper">
         <div class="weather-app">
           <div class="weather-info">
-            <h1>Stockholm</h1>
+            <h1 id="city">Stockholm</h1>
             <ul>
               <li>Thursday 18:00</li>
-              <li>Clear</li>
+              <li id="description"></li>
             </ul>
           </div>
 
@@ -39,9 +40,8 @@
                   alt="Clear"
                   class="float-left"
                 />
-                <strong id="temperature">20</strong
-                ><span class="units">°C | <a href="#">°F</a></
-                  span>
+                <strong id="temperature"></strong>
+                <span class="units">°C | <a href="#">°F</a></span>
               </div>
             </div>
           </div>
@@ -49,11 +49,11 @@
           <div class="row">
             <div class="extra-info col-2">
               <i class="fas fa-tint"></i>
-              <p id="humidity">3%</p>
+              <p id="humidity"></p>
             </div>
             <div class="extra-info col-2">
               <i class="fas fa-wind"></i>
-              <p id="wind-speed">20km/h</p>
+              <p id="wind-speed"></p>
             </div>
           </div>
           
