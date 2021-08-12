@@ -40,7 +40,7 @@ ul {
 
 li {
   list-style: none;
-  color: rgb(119, 116, 116);
+  color: rgb(135, 135, 135);
   font-size: 16px;
   font-weight: 100;
   line-height: none;
@@ -122,21 +122,15 @@ a:link {
   box-shadow: 1px 1px 6px rgb(120 151 173 / 40%);
   padding: 9px 5px;
   border-radius: 13px;
-  color: #7c7c7c;
+  color: #5e5e5e;
 }
 
 .daily-temp {
-  margin: 25px auto;
+  margin: 25px 0;
   text-align: center;
   border: none;
   box-shadow: 1px 1px 6px rgb(120 151 173 / 40%);
-  padding: 9px 5px;
+  padding: 19px 5px;
   border-radius: 13px;
-  color: #7c7c7c;
-}
-
-fas {
-  font-size: 25px;
-  font-weight: 700;
-  color: white;
+  color: #5e5e5e;
 }
